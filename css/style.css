@@ -2,6 +2,10 @@ body {
   background-color: #252b42;
   font-family: "Montserrat", sans-serif;
 }
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 .brand-name {
   font-style: normal;
   font-weight: bold;
@@ -349,6 +353,8 @@ body {
 }
 .middle-section-5 {
   background-image: url(../images/background2.png);
+  background-position: center;
+  padding: 45px 19px;
 }
 .ms5-h5 {
   font-weight: bold;
@@ -356,12 +362,123 @@ body {
   line-height: 24px;
   color: #252b42;
 }
-.ms5-h2 h2{
+.ms5-h2 h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 57px;
   color: #252b42;
 }
+.ms5-form input,
+.ms5-form select,
+.ms5-form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50px;
+  background: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #bdbdbd;
+}
+.ms5-form input::placeholder,
+.ms5-form textarea::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #bdbdbd;
+}
+.ms5-form textarea {
+  height: 140px;
+}
+
+.btn-book {
+  padding: 15px 40px;
+  background: #23a6f0;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+.middle-section-6 {
+  background: #fafafa;
+  padding-bottom: 40px;
+}
+.ms6-h2 h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+.ms6-p p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252b42;
+  margin-bottom: 50px;
+}
+.btn-contact-us {
+  background: #23a6f0;
+  border-radius: 5px;
+  width: 160px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0;
+}
+.middle-section-header-6 {
+  padding-top: 40px;
+  text-align: left;
+}
+.footer-wrapper {
+  padding-top: 50px;
+  /* padding-left: 87px; */
+  padding-bottom: 55px;
+}
+.footer-nav h2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-nav ul {
+  margin-bottom: 30px;
+}
+.footer-nav li {
+  margin-bottom: 10px;
+}
+.getintouch span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.madeby h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+.copyright {
+  margin-left: 30px;
+  margin-bottom: 55px;
+}
+.social-media-icons {
+  margin-left: 20px;
+}
+
+/********** media quary ***********/
 
 @media screen and (min-width: 1001px) {
   .container-wrapper {
@@ -370,6 +487,10 @@ body {
   .container {
     width: 100%;
     margin: 0 auto;
+  }
+  .brand-name{
+    margin-left: 65px;
+    padding-top: 26px;
   }
   .header-wrapper {
     background-image: url(../images/background.png);
@@ -493,5 +614,67 @@ body {
     float: left;
     margin-left: 30px;
     width: 30%;
+  }
+  .ms5-form input,
+  .ms5-form select {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .ms5-form textarea {
+    width: 82.6%;
+    margin-left: 20px;
+  }
+  .btn-book {
+    margin-left: 20px;
+    width: 218px;
+  }
+  .ms5-h5 h5,
+  .ms5-h2 h2 {
+    margin-left: 20px;
+  }
+  .ms5-h2 {
+    margin-bottom: 40px;
+  }
+
+  .middle-section-header-6 {
+    margin-left: 30px;
+  }
+  .ms6-fl {
+    float: left;
+  }
+  .ms6-fr {
+    float: right;
+    margin-right: 195px;
+  }
+  .company-info,
+  .legal,
+  .features,
+  .resources,
+  .getintouch {
+    float: left;
+    margin-left: 30px;
+  }
+  .copyright {
+    background: #fafafa;
+  }
+  .madeby h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    margin-bottom: 25px;
+  }
+  .madeby {
+    float: left;
+  }
+  .social-media {
+    float: right;
+  }
+  .copyright {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
 }
