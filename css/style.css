@@ -174,6 +174,52 @@ body {
 .profile-photo {
   display: none;
 }
+.middle-section-3a {
+  background-image: url(../images/post1.png);
+  padding: 261px 17.5px 31px 22.5px;
+  width: 329px;
+  margin: 30px auto;
+}
+.middle-section-3b {
+  background-image: url(../images/post2.png);
+  padding: 261px 17.5px 31px 22.5px;
+  width: 329px;
+  margin: 30px auto;
+}
+.middle-section-3c {
+  background-image: url(../images/post3.png);
+  padding: 261px 17.5px 31px 22.5px;
+  width: 329px;
+  margin: 30px auto;
+}
+.middle-section-3d {
+  background-image: url(../images/post4.png);
+  padding: 261px 17.5px 31px 22.5px;
+  width: 329px;
+  margin: 30px auto;
+}
+.ms3-p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.ms3-h {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.btn-view-project {
+  background: #23a6f0;
+  border-radius: 37px;
+  width: 168px;
+  padding: 10px 0;
+  text-align: center;
+}
 
 @media screen and (min-width: 1001px) {
   .container-wrapper {
@@ -266,22 +312,36 @@ body {
     width: 33.33%;
     padding: 40px 50px;
   }
-
+  .middle-section-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .middle-section-2a {
     float: left;
-    width: 40%;
+    width: 450px;
+    height: 288px;
     position: relative;
   }
   .middle-section-2b {
     float: right;
-    width: 40%;
-    margin-left: 30px;
+    width: 450px;
+    height: 288px;
     position: relative;
   }
   .profile-photo {
     display: block;
     position: absolute;
-    top: 28;
+    top: 0;
     left: 0;
+    margin-left: -41px;
+    margin-top: 28px;
+    z-index: 1;
   }
-}
+  .middle-section-3a, 
+  .middle-section-3b,
+   .middle-section-3c,
+   .middle-section-3d{
+    float: left;
+    width: 22%;
+    margin-left: 30px;
+  } 
