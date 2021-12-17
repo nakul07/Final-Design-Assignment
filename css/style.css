@@ -478,18 +478,20 @@ body {
   margin-left: 20px;
 }
 
+/* **************************************** */
 /********** media quary ***********/
+/* *********************************** */
 
-@media screen and (min-width: 1001px) {
-  .container-wrapper {
-    min-width: 1002px;
-  }
+@media screen and (min-width: 768px) {
+  /* .container-wrapper {
+    min-width: 768px;
+  } */
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
-  .brand-name{
-    margin-left: 65px;
+  .brand-name {
+    margin-left: 25px;
     padding-top: 26px;
   }
   .header-wrapper {
@@ -503,19 +505,19 @@ body {
   }
   .become-member {
     background: #23a6f0;
-    width: 214px;
+    width: 100px;
     height: 52px;
     border-radius: 5px;
   }
   .become-member p {
-    padding-top: 17px;
-    font-size: 14px;
+    padding-top: 12px;
+    font-size: 12px;
     color: white;
     text-align: center;
   }
   .login {
     margin-top: 19px;
-    margin-right: 45px;
+    margin-right: 30px;
   }
   .top-icons {
     display: none;
@@ -526,12 +528,12 @@ body {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0px;
-    margin-left: 83px;
+    margin-left: 20px;
     width: auto;
   }
   .nav-bar li {
     float: left;
-    padding: 0 0 0 21px;
+    padding: 0 0 0 15px;
   }
   .brand-name-wrapper {
     float: left;
@@ -581,14 +583,14 @@ body {
   }
   .middle-section-2a {
     float: left;
-    width: 450px;
-    height: 288px;
+    width: 300px;
+    /* height: 288px; */
     position: relative;
   }
   .middle-section-2b {
     float: right;
-    width: 450px;
-    height: 288px;
+    width: 300px;
+    /* height: 288px; */
     position: relative;
   }
   .profile-photo {
@@ -605,7 +607,7 @@ body {
   .middle-section-3c,
   .middle-section-3d {
     float: left;
-    width: 22%;
+    width: 45%;
     margin-left: 30px;
   }
   .middle-section-4a,
@@ -613,7 +615,7 @@ body {
   .middle-section-4c {
     float: left;
     margin-left: 30px;
-    width: 30%;
+    width: 45%;
   }
   .ms5-form input,
   .ms5-form select {
@@ -676,5 +678,53 @@ body {
     padding-right: 50px;
     margin-left: 0px;
     margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .container-wrapper {
+    min-width: 1002px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .brand-name {
+    margin-left: 65px;
+  }
+  .become-member {
+    width: 214px;
+    margin-right: 50px;
+  }
+  .become-member p {
+    padding-top: 17px;
+    font-size: 14px;
+  }
+  .login {
+    margin-right: 45px;
+  }
+  .nav-bar {
+    margin-left: 83px;
+  }
+  .middle-section-2a-wrapper{
+    padding:0 50px 0 50px ;
+  }
+  .middle-section-2a {
+    width: 400px;
+    height: 288px;
+  }
+  .middle-section-2b {
+    width: 400px;
+    height: 288px;
+  }
+  .middle-section-3a,
+  .middle-section-3b,
+  .middle-section-3c,
+  .middle-section-3d {
+    width: 22%;
+  }
+  .middle-section-4a,
+  .middle-section-4b,
+  .middle-section-4c {
+    width: 30%;
   }
 }
